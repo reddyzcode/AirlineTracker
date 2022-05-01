@@ -1,0 +1,104 @@
+use TEST_FligtData
+db.FLIGHTCALLSIGNS.insertMany([
+   {
+      flightid:1,
+	  flightnumber: "LH464",
+      callsign: "DLH464"
+      
+    },
+	{
+      flightid:2,
+	  flightnumber: "LH465",
+      callsign: "DLH465"
+          },
+{
+      flightid:3,
+	  flightnumber: "LH493",
+      callsign: "DLH493"
+      
+    }, 
+	{
+      flightid:4,
+	  flightnumber: "LH470",
+      callsign: "DLH470"
+      
+    },
+	{
+      flightid:5,
+	  flightnumber: "LH471",
+      callsign: "DLH471"
+      
+    },
+	{
+      flightid:6,
+	  flightnumber: "LH422",
+      callsign: "DLH422"
+      
+    },
+	   {
+      flightid:7,
+	  flightnumber: "LH423",
+      callsign: "DLH423"
+      
+    },
+	   {
+      flightid:8,
+	  flightnumber: "LH756",
+      callsign: "DLH756"
+      
+    },
+	   {
+      flightid:9,
+	  flightnumber: "LH757",
+      callsign: "DLH757"
+      
+    },
+	   {
+      flightid:10,
+	  flightnumber: "LH754",
+      callsign: "DLH754"
+      
+    },
+		   {
+      flightid:11,
+	  flightnumber: "LH755",
+      callsign: "DLH755"
+      
+    },
+		   {
+      flightid:12,
+	  flightnumber: "LH457",
+      callsign: "DLH457"
+      
+    },
+		   {
+      flightid:13,
+	  flightnumber: "LH756",
+      callsign: "DLH756"
+      
+    },
+		   {
+      flightid:14,
+	  flightnumber: "LH750",
+      callsign: "DLH750"
+      
+    },
+			   {
+      flightid:15,
+	  flightnumber: "LH417",
+      callsign: "DLH417"
+      
+    },
+			   {
+      flightid:16,
+	  flightnumber: "LH416",
+      callsign: "DLH416"
+      
+    },
+			   {
+      flightid:17,
+	  flightnumber: "LH418",
+      callsign: "DLH418"
+      
+    }
+])
