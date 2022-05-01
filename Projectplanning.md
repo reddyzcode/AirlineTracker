@@ -48,13 +48,21 @@ Assumptions and observations
 9. openskynetwork gives status or "state" of plane by entering icao2424, which is unique for an airplane at that point of time
 10. icao2424 changes for a particular plane on a paricular route,in different days, and  also can be same or different for to and fro flight
 11. But at a point of time in sky, every flight have unique icao2424
-12. -----------------------------------------------------------------------------------------------------------------------------------------------
-13. *****Can the data of a flight be recieved from Openskynetwork API by entering callsign*** it seems possible******
-14. its not tested by entering callsign and tested for icao2424, but seems possible..just test it
-15. -------------------------------------------------------------------------
-16. -----------------------------------------------------------------------------------------------------------------------------------------------
-17. https://openskynetwork.github.io/opensky-api/rest.html
-18. eg: LH456 is currently in the air, Frankfurt to losangeles
+12. Different aircrafts carry different callsign but may have same icao24 at different time, but not at same time
+
+      i.e here, for every aircraft
+      callsigns are unique always
+      icao24 is unique at particular point of time, but historically may be same for more than many aircrafts
+      eg: https://opensky-network.org/aircraft-profile?icao24=3c4a8b
+
+      we can see the same icao24 for different callsigns at different dates in the above webpage
+13. -----------------------------------------------------------------------------------------------------------------------------------------------
+14. *****Can the data of a flight be recieved from Openskynetwork API by entering callsign*** it seems possible******
+15. its not tested by entering callsign and tested for icao2424, but seems possible..just test it
+16. -------------------------------------------------------------------------
+17. -----------------------------------------------------------------------------------------------------------------------------------------------
+18. https://openskynetwork.github.io/opensky-api/rest.html
+19. eg: LH456 is currently in the air, Frankfurt to losangeles
 ---------------------------------------------------------------------------------------
 i entered icao24 value and not call sign
 I entered https://opensky-network.org/api/states/all?icao24=3c4b34 in postman GET request
