@@ -1,0 +1,41 @@
+https://www.mongodb.com/docs/manual/reference/sql-comparison/
+
+
+SQL        MongoDB Terms/Concepts
+database   database
+table     collection
+row       document or BSON document
+column   field
+index   index
+table joins
+$lookup, embedded documents
+primary key
+
+Specify any unique column or column combination as primary key.
+
+primary key
+
+In MongoDB, the primary key is automatically set to the _id field.
+
+aggregation (e.g. group by)
+aggregation pipeline
+
+See the SQL to Aggregation Mapping Chart.
+
+SELECT INTO NEW_TABLE
+$out
+
+See the SQL to Aggregation Mapping Chart.
+
+MERGE INTO TABLE
+$merge (Available starting in MongoDB 4.2)
+
+See the SQL to Aggregation Mapping Chart.
+
+UNION ALL
+$unionWith (Available starting in MongoDB 4.4)
+transactions
+transactions
+
+TIP
+For many scenarios, the denormalized data model (embedded documents and arrays) will continue to be optimal for your data and use cases instead of multi-document transactions. That is, for many scenarios, modeling your data appropriately will minimize the need for multi-document transactions.
