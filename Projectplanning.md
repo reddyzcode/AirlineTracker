@@ -111,7 +111,7 @@ https://openskynetwork.github.io/opensky-api/rest.html#flights-in-time-interval 
 ---------------------------------------------------------------------------------
 Very important finding --note it down
 .....................................................................................................................
-Flights by Aircraft seems promising query but need to know how to use it
+Flights by Aircraft and flights in time interval seems promising query but need to know how to use it 
 ...............................................................................
 $ curl -u "USERNAME:PASSWORD" -s "https://opensky-network.org/api/flights/aircraft?icao24=3c675a&begin=1517184000&end=1517270400" | python -m json.tool
 
@@ -124,5 +124,13 @@ But using import and pasting curl command, im getting error
 20. For java, to get unix time, we use 
 21. long unixTime = System.currentTimeMillis() / 1000L;
 22. 
-23. 
-24.
+23. -------------------------------------------------------------------------------------------
+24. 1. DB planning and modelling (MongoDB)
+25. 2. data -Static collection and Dynamic collection differentiation
+26. 3. Testing data insertion through Java
+27. 4. Using Java API provided by open sky network and dumping it to database, updatation should happen frenequently
+28. 5.Performing queries manually
+29. 6. Developing front end and framework and integrating APIs and DB
+30. ...............................................................................................
+31. 
+32. 2. 
